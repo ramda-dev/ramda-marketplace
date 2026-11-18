@@ -1,20 +1,20 @@
 {
     "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
-    "name": "ramda-cowork-marketplace",
-    "version": "0.1.6",
+    "name": "ramda-marketplace",
+    "version": "0.2.0",
     "owner": { "name": "Zayn Ramdass", "email": "ramdasszayn@gmail.com" },
     "plugins": [
         {
             "name": "nu-fluency",
-            "source": { "source": "github", "repo": "zaynram/nu-fluency", "ref": "v0.5.0" }
+            "source": { "source": "github", "repo": "ramda-dev/nu-fluency" }
         },
-        { 
+        {
             "name": "scholar",
-            "source": { "source": "github", "repo": "zaynram/scholar" } 
+            "source": { "source": "github", "repo": "ramda-dev/scholar" }
         },
         {
             "name": "reasoning-protocols",
-            "source": { "source": "github", "repo": "zaynram/reasoning-protocols" }
+            "source": { "source": "github", "repo": "ramda-dev/reasoning-protocols" }
         }
     ]
 }
